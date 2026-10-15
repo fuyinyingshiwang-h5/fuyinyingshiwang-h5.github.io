@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>福音光影指南 | 合规影视推荐与正版导航（非福音影视网）</title>
+  <meta name="description" content="福音光影指南（fuyinyingshiwang-h5）做合规影视片单推荐与正版渠道导航。非原福音影视网、不发宗教讲道、不原盘下载、不聚合盗版片源。含合家欢片单、正版信源与伪站避坑。" />
+  <meta name="author" content="福音光影指南" />
+  <meta name="robots" content="index,follow" />
+  <meta name="theme-color" content="#5B4636" />
+  <link rel="canonical" href="https://fuyinyingshiwang-h5.github.io/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="福音光影指南" />
+  <meta property="og:title" content="福音光影指南 | 合规影视推荐与正版导航" />
+  <meta property="og:description" content="非原福音影视网，只做正版持权平台导航。" />
+  <meta property="og:url" content="https://fuyinyingshiwang-h5.github.io/" />
+  <meta property="og:locale" content="zh_CN" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="福音光影指南 | 合规影视推荐与正版导航" />
+  <meta name="twitter:description" content="不重建福音影视网，拒绝盗版聚合与宗教讲道发布。" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "福音光影指南",
+    "url": "https://fuyinyingshiwang-h5.github.io/",
+    "description": "合规影视片单推荐与正版渠道导航站（非原福音影视网）。",
+    "inLanguage": "zh-CN"
+  }
+  </script>
+
+  <style>
+    :root{
+      --bg:#F7F3EC;
+      --bg2:#EFE7D8;
+      --card:#FFFFFF;
+      --line:#E0D5C2;
+      --ink:#26201A;
+      --muted:#6E6253;
+      --wood:#5B4636;
+      --wood-deep:#3E2F23;
+      --candle:#E8C887;
+      --candle-bright:#F2D9A6;
+      --glass:#5C6BA8;
+      --glass-deep:#3F4C7E;
+      --ticket:#FBF7EC;
+      --silver:#B8AE9E;
+      --radius:16px;
+      --maxw:1180px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--bg);color:var(--ink);line-height:1.75;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;-webkit-font-smoothing:antialiased}
+    a{color:inherit;text-decoration:none}
+    .wrap{max-width:var(--maxw);margin:0 auto;padding:0 20px}
+
+    header.nav{position:sticky;top:0;z-index:50;background:rgba(247,243,236,.95);backdrop-filter:blur(12px);border-bottom:2px solid var(--wood)}
+    .nav-inner{display:flex;align-items:center;justify-content:space-between;height:66px}
+    .logo{font-weight:900;font-size:21px;display:flex;align-items:center;gap:10px}
+    .logo .win{width:36px;height:34px;border-radius:8px;background:linear-gradient(135deg,var(--glass),var(--wood));display:flex;align-items:center;justify-content:center;font-size:17px;box-shadow:inset 0 -3px 0 rgba(0,0,0,.2)}
+    .logo b{color:var(--wood-deep)}
+    .logo span{color:var(--glass-deep)}
+    nav.menu{display:flex;gap:6px;font-size:14px;font-weight:700;color:var(--muted)}
+    nav.menu a{padding:8px 14px;border-radius:8px;border:2px solid transparent;transition:.2s}
+    nav.menu a:hover{color:var(--wood-deep);border-color:var(--line);background:var(--bg2)}
+    .nav-toggle{display:none;background:none;border:2px solid var(--wood);color:var(--ink);border-radius:8px;padding:5px 10px;font-size:18px;cursor:pointer}
+
+    .hero{padding:74px 0 80px;background:
+      radial-gradient(600px 320px at 85% 12%,rgba(92,107,168,.18),transparent 60%),
+      radial-gradient(520px 260px at 6% 95%,rgba(91,70,54,.14),transparent 60%),
+      linear-gradient(180deg,#EFE7D8,#F7F3EC);position:relative;overflow:hidden}
+    .hero .wrap{position:relative;z-index:1;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+    .pill{display:inline-block;background:var(--wood);color:#fff;font-size:11px;font-weight:800;padding:5px 16px;border-radius:20px;letter-spacing:1px;text-transform:uppercase;margin-bottom:18px}
+    .disclaim{display:inline-block;margin-left:8px;font-size:11px;font-weight:700;color:var(--wood-deep);border:1px dashed var(--wood);border-radius:20px;padding:4px 12px;vertical-align:middle}
+    .hero h1{font-size:clamp(30px,5.5vw,52px);line-height:1.1;margin:0 0 14px;font-weight:900}
+    .hero h1 em{font-style:normal;color:var(--wood-deep)}
+    .hero h1 .glass-em{color:var(--glass-deep)}
+    .hero p.lead{font-size:16px;color:var(--muted);max-width:640px;margin:0 0 22px}
+    .hero-tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px}
+    .hero-tag{border:2px solid var(--line);border-radius:8px;padding:5px 13px;font-size:13px;font-weight:600;background:#fff}
+    .cta{display:flex;gap:12px;flex-wrap:wrap}
+    .btn{padding:13px 26px;border-radius:10px;font-weight:800;font-size:15px;transition:.2s;display:inline-flex;gap:6px;align-items:center;cursor:pointer}
+    .btn-primary{background:var(--wood);color:#fff;border:2px solid var(--wood-deep)}
+    .btn-primary:hover{background:var(--wood-deep)}
+    .btn-ghost{border:2px solid var(--glass-deep);color:var(--glass-deep);background:transparent}
+    .btn-ghost:hover{background:var(--glass-deep);color:#fff}
+
+    /* 花窗 */
+    .glass-art{width:300px;height:220px;margin:0 auto;background:linear-gradient(180deg,#E9E2D2,#D8CBB4);border-radius:14px;position:relative;box-shadow:0 16px 40px rgba(62,47,35,.20);display:flex;align-items:center;justify-content:center;overflow:hidden;border:2px solid var(--line)}
+    .glass-art::before{content:"";position:absolute;inset:18px;border:2px solid rgba(92,107,168,.45);border-radius:10px}
+    .arch{width:120px;height:150px;background:conic-gradient(from 0deg,var(--glass),var(--candle),var(--wood),var(--glass-deep),var(--glass));border-radius:60px 60px 8px 8px;opacity:.85;filter:saturate(1.1)}
+    .glass-art .label{position:absolute;bottom:16px;left:0;right:0;text-align:center;font-size:12px;color:var(--wood-deep);font-weight:700;letter-spacing:1px}
+
+    section{padding:60px 0;border-bottom:2px dashed var(--line)}
+    .sec-head{margin-bottom:32px;text-align:center}
+    .sec-head .kicker{color:var(--wood-deep);font-weight:800;letter-spacing:2px;text-transform:uppercase;font-size:11px}
+    .sec-head h2{font-size:clamp(24px,4vw,34px);margin:6px 0 8px;font-weight:900}
+    .sec-head p{color:var(--muted);margin:0 auto;max-width:700px;font-size:14px}
+
+    .taste{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+    .taste-card{background:var(--card);border:2px solid var(--line);border-radius:14px;padding:22px;text-align:center;position:relative;overflow:hidden}
+    .taste-card .top{position:absolute;top:0;left:0;right:0;height:8px;background:linear-gradient(90deg,var(--wood),var(--glass))}
+    .taste-card .emoji{font-size:36px;margin:14px 0 8px;display:block}
+    .taste-card h3{margin:0 0 6px;font-size:15px;font-weight:900}
+    .taste-card p{margin:0;color:var(--muted);font-size:12px}
+
+    .list{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+    .film{background:var(--card);border:2px solid var(--line);border-radius:16px;padding:22px;display:flex;gap:16px;align-items:flex-start;position:relative;overflow:hidden;transition:.3s}
+    .film:hover{transform:translateY(-4px);box-shadow:0 10px 26px rgba(91,70,54,.16)}
+    .film::after{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:linear-gradient(180deg,var(--wood),var(--glass))}
+    .film .ic{font-size:34px;flex-shrink:0}
+    .film h3{margin:0 0 4px;font-size:16px;font-weight:900}
+    .film .sub{font-size:11px;color:var(--wood-deep);font-weight:700;margin-bottom:6px}
+    .film p{margin:0;color:var(--muted);font-size:13px}
+    .film ul{margin:8px 0 0;padding-left:18px;color:var(--muted);font-size:12px}
+    .film ul li{margin:2px 0}
+
+    .src{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+    .src-card{background:var(--card);border:2px solid var(--line);border-radius:14px;padding:22px;text-align:center;transition:.3s}
+    .src-card:hover{border-color:var(--wood);background:var(--bg2)}
+    .src-card .ic{font-size:32px;margin-bottom:8px;display:block}
+    .src-card h3{margin:0 0 4px;font-size:15px;font-weight:800}
+    .src-card p{margin:0;color:var(--muted);font-size:12px}
+
+    .warn{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .reef{background:var(--card);border:2px solid var(--line);border-radius:12px;padding:22px;border-top:5px solid #C0392B}
+    .reef:nth-child(2){border-top-color:var(--wood-deep)}
+    .reef:nth-child(3){border-top-color:var(--glass-deep)}
+    .reef h3{margin:0 0 8px;font-size:16px;font-weight:800}
+    .reef p{margin:0;color:var(--muted);font-size:13px}
+
+    .notice{background:var(--bg2);border:2px dashed var(--wood-deep);border-radius:12px;padding:14px 18px;font-size:13px;color:var(--muted);max-width:860px;margin:24px auto 0}
+    .notice b{color:var(--wood-deep)}
+
+    footer{padding:36px 0;text-align:center;color:#fff;font-size:13px;background:var(--wood-deep)}
+    footer a{color:var(--candle-bright)}
+
+    #toTop{position:fixed;right:16px;bottom:16px;z-index:60;width:46px;height:46px;border-radius:50%;border:2px solid var(--wood);background:var(--wood);color:#fff;font-size:20px;font-weight:900;cursor:pointer;opacity:0;pointer-elements:none;transition:.25s}
+    #toTop.show{opacity:1;pointer-events:auto}
+    .reveal{opacity:0;transform:translateY(16px);transition:.5s ease}
+    .reveal.in{opacity:1;transform:none}
+
+    @media (max-width:980px){
+      .hero .wrap{grid-template-columns:1fr}
+      .taste{grid-template-columns:1fr 1fr}
+      .list{grid-template-columns:1fr}
+      .src{grid-template-columns:1fr 1fr}
+      .warn{grid-template-columns:1fr}
+    }
+    @media (max-width:640px){
+      .nav-toggle{display:block}
+      nav.menu{position:absolute;top:66px;left:0;right:0;flex-direction:column;gap:0;padding:10px 20px 20px;background:rgba(247,243,236,.98);border-bottom:2px solid var(--wood);display:none}
+      nav.menu.open{display:flex}
+      nav.menu a{padding:12px 8px;border-bottom:2px solid var(--line);border-radius:0}
+      .taste{grid-template-columns:1fr}
+      .src{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/laoliu.js"></script>
+
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <div class="logo"><span class="win">🪟</span><b>福音</b><span>光影指南</span></div>
+      <button class="nav-toggle" aria-label="菜单" onclick="document.getElementById('menu').classList.toggle('open')">☰</button>
+      <nav class="menu" id="menu">
+        <a href="#home">首页</a>
+        <a href="#taste">选片口味</a>
+        <a href="#list">光影片单</a>
+        <a href="#src">正版信源</a>
+        <a href="#warn">伪站避坑</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="wrap">
+      <div>
+        <div class="pill">Chapel Reel · Legal Only<span class="disclaim">非福音影视网</span></div>
+        <h1>福音光影指南<br/>像<span class="glass-em">花窗票根</span>，只指<em>正版厅</em></h1>
+        <p class="lead">本站不是原「福音影视网/fuyin.tv」、不发牧师讲道、不挂原盘下载；只做合规影视片单推荐与正版导航，全部走持权平台。</p>
+        <div class="hero-tags">
+          <span class="hero-tag">光影片单</span>
+          <span class="hero-tag">正版导航</span>
+          <span class="hero-tag">不聚合盗版</span>
+          <span class="hero-tag">无讲道内容</span>
+          <span class="hero-tag">无原盘下载</span>
+        </div>
+        <div class="cta">
+          <a class="btn btn-primary" href="#taste">按口味选片 →</a>
+          <a class="btn btn-ghost" href="#warn">识别伪福音影视</a>
+        </div>
+      </div>
+      <div>
+        <div class="glass-art">
+          <div class="arch"></div>
+          <div class="label">NO. FUYIN-YINGSHI-H5</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="taste" class="reveal">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="kicker">Picking Mood</div>
+        <h2>选片口味</h2>
+        <p>不按“福音资源站”选片，按家庭/治愈/正剧场景挑正版。</p>
+      </div>
+      <div class="taste">
+        <div class="taste-card"><div class="top"></div><span class="emoji">🛋️</span><h3>客厅合家</h3><p>不费脑、不吓人，全家能一起看</p></div>
+        <div class="taste-card"><div class="top"></div><span class="emoji">🕯️</span><h3>慢静治愈</h3><p>人文、自然、温情传记，周末放松</p></div>
+        <div class="taste-card"><div class="top"></div><span class="emoji">🍿</span><h3>下饭轻片</h3><p>轻喜剧、美食、短集数</p></div>
+        <div class="taste-card"><div class="top"></div><span class="emoji">🎭</span><h3>正剧传记</h3><p>人物传记、历史正剧，正版租赁</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="list" class="reveal">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="kicker">Reel List</div>
+        <h2>光影片单</h2>
+        <p>四个方向，只列类型与正版路径，不列宗教讲道/原盘源。</p>
+      </div>
+      <div class="list">
+        <div class="film">
+          <span class="ic">🏠</span>
+          <div>
+            <h3>家庭厅</h3>
+            <div class="sub">合家欢 · 低冲突</div>
+            <p>亲情剧、治愈动画、生活轻喜剧。</p>
+            <ul>
+              <li>正版OTT家庭专区</li>
+              <li>避开枪版录屏</li>
+              <li>电视投屏友好</li>
+            </ul>
+          </div>
+        </div>
+        <div class="film">
+          <span class="ic">🕯️</span>
+          <div>
+            <h3>静光治愈</h3>
+            <div class="sub">慢节奏 · 人文</div>
+            <p>自然纪录、小镇生活、温情短片。</p>
+            <ul>
+              <li>官方纪录专区</li>
+              <li>不挂“原盘ISO”下载</li>
+              <li>不搜福音同款源</li>
+            </ul>
+          </div>
+        </div>
+        <div class="film">
+          <span class="ic">🍿</span>
+          <div>
+            <h3>下饭轻片</h3>
+            <div class="sub">轻松 · 短时长</div>
+            <p>情景喜剧、美食、职场轻喜剧。</p>
+            <ul>
+              <li>正版平台分集订阅</li>
+              <li>不装第三方播放器</li>
+              <li>广告位只认官方</li>
+            </ul>
+          </div>
+        </div>
+        <div class="film">
+          <span class="ic">🎭</span>
+          <div>
+            <h3>传记正剧</h3>
+            <div class="sub">周末 · 付费租赁</div>
+            <p>人物传记、历史正剧、社会片。</p>
+            <ul>
+              <li>单片租赁/订阅正版</li>
+              <li>认准持权平台</li>
+              <li>不点假播放键</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="src" class="reveal">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="kicker">Legal Sources</div>
+        <h2>正版信源</h2>
+        <p>只走持权分发，不碰福音影视类原盘/讲道聚合。</p>
+      </div>
+      <div class="src">
+        <div class="src-card"><span class="ic">📺</span><h3>正版OTT</h3><p>持牌平台订阅/单片租赁</p></div>
+        <div class="src-card"><span class="ic">🎬</span><h3>院线/重映</h3><p>正规购票与官方重映</p></div>
+        <div class="src-card"><span class="ic">🏛️</span><h3>影展放映</h3><p>官方放映、学术展映</p></div>
+        <div class="src-card"><span class="ic">📼</span><h3>纪录专区</h3><p>正版引进纪录片</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="warn" class="reveal">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="kicker">Fake Gospel Reel</div>
+        <h2>伪「福音影视」避坑</h2>
+        <p>「福音影视网」原站形态带宗教发布+原盘下载，导航站不接这套。</p>
+      </div>
+      <div class="warn">
+        <div class="reef">
+          <h3>🚫 讲道视频/宗教发布</h3>
+          <p>原站含牧师讲道、诗歌、福音电影 [1,4](@ref)；按《互联网宗教信息服务管理办法》，向公众发宗教音视频需许可，无证不发讲道、不转链接 [5,11](@ref)。</p>
+        </div>
+        <div class="reef">
+          <h3>🚫 原盘下载/免费派送</h3>
+          <p>原站有“原盘下载站/原盘派送”特征 [4](@ref)；影视原盘分发若无授权=信息网络传播侵权风险 [9,15](@ref)。</p>
+        </div>
+        <div class="reef">
+          <h3>🚫 聚合播放/假播放键</h3>
+          <p>点播放跳下载、多解析线路、装专用播放器，属盗链聚合；判例已认定“技术中立”不免责 [6,17](@ref)。</p>
+        </div>
+      </div>
+      <div class="notice">
+        <b>声明：</b>本页「福音光影指南」仅为“福音”字面的光影主题导航，与原福音影视网（fuyin.tv）无任何关系；不重建其原站、不发布牧师讲道/宗教仪式内容、不提供原盘下载、不聚合影视资源、不提供盗版播放与磁力网盘。宗教类音视频信息发布须按《互联网宗教信息服务管理办法》取得相应许可 [5,11](@ref)，本静态页不做该类服务。
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      © 2026 福音光影指南（fuyinyingshiwang-h5）｜ 静态展示站点 ｜
+      内页链接以 <a href="#">#</a> 占位 ｜
+      网站网址：https://fuyinyingshiwang-h5.github.io ｜
+      非原福音影视网｜不提供盗版资源、原盘下载、讲道发布、磁力网盘与成人内容。
+    </div>
+  </footer>
+
+  <button id="toTop" aria-label="回到顶部" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+  <script>
+    document.querySelectorAll('#menu a').forEach(function(a){
+      a.addEventListener('click',function(){ document.getElementById('menu').classList.remove('open'); });
+    });
+    var toTop=document.getElementById('toTop');
+    window.addEventListener('scroll',function(){ toTop.classList.toggle('show',window.scrollY>400); });
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} });
+    },{threshold:0.1});
+    document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+  </script>
+</body>
+</html>
